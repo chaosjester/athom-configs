@@ -91,7 +91,8 @@ mdns:
 
 web_server:
   port: 80
-#  version: 3
+  version: 3
+  ota: false
 
 network:
   enable_ipv6: ${ipv6_enable}
